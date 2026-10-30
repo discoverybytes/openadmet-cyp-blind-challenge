@@ -1,0 +1,20 @@
+# Secrets — never commit
+.env
+.env.*
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+
+# Boltz-2 output: regenerable from the YAMLs, and far too large to track
+**/out_*/
+**/boltz_results_*/
